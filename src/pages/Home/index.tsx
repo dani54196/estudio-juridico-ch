@@ -37,6 +37,11 @@ const Home = () => {
         icon="graphs.svg"
         id="about"
       />
+      <MiddleBlock
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button={MiddleBlockContent.button}
+      />
       <ContentBlock
         type="right"
         title={MissionContent.title}

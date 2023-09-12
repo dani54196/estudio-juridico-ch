@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
+  "title": "Que ofrecemos?",
   "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "DERECHO CIVIL",
+      "content": "Mediaciones - Sucesiones - Contratos - Boletos de compraventa - Cesión de derechos - Usucapion - Reivindicación - #escrituración - Accidentes de tránsito - Incumplimiento contractual - #desalojos - Daños y Perjuicios en general",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Derecho Comercial",
+      "content": "Juicios y Cobros Ejecutivos - Secuestros prendarios - Secuestros de bienes dados en leasing - Concursos",
       "icon": "notes.svg"
     }
   ]
