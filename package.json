@@ -1,8 +1,8 @@
 {
   "name": "estudio-juridico-ch",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://dani54196.github.io/estudio-juridico-ch",
+  "private": false,
+  "homepage": "https://danicardozo.me/estudio-juridico-ch",
   "dependencies": {
     "@types/node": "^15.14.9",
     "@types/react": "^17.0.65",
