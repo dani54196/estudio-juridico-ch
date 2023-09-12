@@ -50,6 +50,25 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
+            <Col lg={4} md={6} sm={24} xs={24}>
+              <Empty />
+              <Language>Dirección</Language>
+              <Para>Homero 3470</Para>
+              <Para>Lomas de Zamora</Para>
+              <Para>Buenos Aires</Para>
+            </Col>
+            <Col lg={12} md={24} sm={24} xs={24}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3278.8609185421687!2d-58.46597492425411!3d-34.733899972907906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ0JzAyLjAiUyA1OMKwMjcnNDguMiJX!5e0!3m2!1sen!2sar!4v1694531305384!5m2!1sen!2sar"
+                width="400"
+                height="300"
+                style={{ border: 0, margin: 1}}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </Col>
+          </Row>
+          <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
               <Large to="/">{t("Tell us everything")}</Large>
@@ -79,51 +98,6 @@ const Footer = ({ t }: any) => {
               </Large>
             </Col>
           </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large left="true" to="/">
-                {t("About")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
-            </Col>
-          </Row>
         </Container>
       </FooterSection>
       <Extra>
@@ -145,20 +119,20 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="https://api.whatsapp.com/message/INDLYWFEXOD3B1?autoload=1&app_absent=0"
+                src="whatsapp.png"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                href="mailto:estudioayalachiara@gmail.com"
+                src="envelope.png"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
+                href="https://www.instagram.com/abogadoschyasociados/"
+                src="instagram.png"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                href="https://www.facebook.com/estudioayalachiara"
+                src="facebook.png"
               />
             </FooterContainer>
           </Row>
