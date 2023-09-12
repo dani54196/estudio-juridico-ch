@@ -52,7 +52,7 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={4} md={6} sm={24} xs={24}>
               <Empty />
-              <Language>Dirección</Language>
+              <Language>DIRECIÓN</Language>
               <Para>Homero 3470</Para>
               <Para>Lomas de Zamora</Para>
               <Para>Buenos Aires</Para>
@@ -62,40 +62,34 @@ const Footer = ({ t }: any) => {
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3278.8609185421687!2d-58.46597492425411!3d-34.733899972907906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ0JzAyLjAiUyA1OMKwMjcnNDguMiJX!5e0!3m2!1sen!2sar!4v1694531305384!5m2!1sen!2sar"
                 width="400"
                 height="300"
-                style={{ border: 0, margin: 1}}
+                style={{ border: 0, margin: 1 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </Col>
           </Row>
+
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Language>HORARIOS DE ATENCIÓN PRESENCIAL</Language>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                Lunes a Jueves de 10 a 13hs <br />
+                Lunes a Viernes de 16.30 a 19.30hs
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
+              <Title>ATENCIÓN TELEFÓNICA</Title>
+              <Para>
+                Podes comunicarte vía WhatsApp o por llamada y te respondemos a
+                la brevedad <br />
+                Lunes a Viernes de 10 a 20hs
+              </Para>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
-              <Large left="true" to="/">
-                {t("Support Center")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Customer Support")}
-              </Large>
+              <a target="_blank" href="https://www.afip.gob.ar">
+                Data Filcal
+              </a>
             </Col>
           </Row>
         </Container>
@@ -110,10 +104,10 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.png"
+                  src="logo-r.png"
                   aria-label="homepage"
                   width="101px"
-                  height="101px"
+                  height="91px"
                 />
               </LogoContainer>
             </NavLink>
@@ -138,6 +132,9 @@ const Footer = ({ t }: any) => {
           </Row>
         </Container>
       </Extra>
+      <a target="_blank" href="https://south.software">
+        by Software of South{" "}
+      </a>
     </>
   );
 };
