@@ -1,3 +1,5 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide, Zoom } from "react-awesome-reveal";
@@ -38,7 +40,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               <Col span={24}>
                 <Input
                   type="text"
-                  name="name"
+                  name="Nombre"
                   placeholder="Your Name"
                   value={values.name || ""}
                   onChange={handleChange}
@@ -59,7 +61,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <TextArea
                   placeholder="Your Message"
                   value={values.message || ""}
-                  name="message"
+                  name="Mensaje"
                   onChange={handleChange}
                 />
                 <ValidationType type="message" />
