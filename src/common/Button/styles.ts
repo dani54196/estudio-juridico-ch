@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const StyledButton = styled("button")<any>`
-  background: ${(p) => p.color || "#fff"};
-  color: ${(p) => (p.color ? "#fff" : "#111")};
+  background: ${(p) => p.color || "#1b396f"};
+  color: ${(p) => (p.color ? "#fff" : "#fff")};
   font-size: 1rem;
   font-weight: 700;
   width: 100%;
-  border: 1px solid blue;
+  border: 1px solid #a99d9d;
   border-radius: 4px;
   padding: 13px 0;
   cursor: pointer;
@@ -18,8 +18,8 @@ export const StyledButton = styled("button")<any>`
   &:hover,
   &:active,
   &:focus {
-    color: #fff;
-    border: 1px solid rgb(255, 130, 92);
-    background-color: blue;
+    color: #1b396f;
+    border: 1px solid #1b396f;
+    background-color: #fff;
   }
 `;

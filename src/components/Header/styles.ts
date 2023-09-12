@@ -43,7 +43,7 @@ export const ContactWrapper = styled("div")<any>`
 `;
 
 export const Burger = styled("div")`
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 1080px) {
     display: block;
   }
 
@@ -55,7 +55,7 @@ export const Burger = styled("div")`
 `;
 
 export const NotHidden = styled("div")`
-  @media only screen and (max-width: 890px) {
+  @media only screen and (max-width: 1080px) {
     display: none;
   }
 `;
@@ -68,7 +68,7 @@ export const Menu = styled("h5")`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
-  color: #fff;
+  color: #a79a9e;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
 
