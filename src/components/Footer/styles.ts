@@ -38,6 +38,19 @@ export const Extra = styled("section")`
   padding-bottom: 2rem;
 `;
 
+export const Sos = styled("div")`
+
+margin-top: 1.2rem;
+  a {
+    color: #fff;
+    font-size: 1rem;
+    position: absolute; /* Usamos position: absolute en el enlace */
+    bottom: 0; /* Colocamos el enlace en la parte inferior */
+    right: 0; /* Colocamos el enlace en la parte derecha */
+    margin: 10px; /* Agregamos un margen para separarlo del borde */
+  }
+`;
+
 export const LogoContainer = styled("div")`
   display: flex;
   position: relative;
@@ -106,7 +119,7 @@ export const FooterContainer = styled("div")`
     }
   }
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 470px) {
     width: auto;
 
     a:not(:last-child) {
