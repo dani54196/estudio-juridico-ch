@@ -46,14 +46,14 @@ const Home = () => {
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="local.jpeg"
         id="mission"
       />
       <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
+        icon="user-sq.jpeg"
         id="product"
       />
       <Contact
