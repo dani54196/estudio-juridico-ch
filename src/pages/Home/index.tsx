@@ -34,7 +34,7 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="graphs.svg"
+        icon="local2.jpeg"
         id="about"
       />
       <MiddleBlock
