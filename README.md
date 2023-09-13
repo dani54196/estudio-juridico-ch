@@ -10,6 +10,3 @@ TODO
 - [ ] Seo
 - [ ] google
 - [ ] github
-
-
-
