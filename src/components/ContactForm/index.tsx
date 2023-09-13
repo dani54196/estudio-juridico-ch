@@ -31,17 +31,17 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
     e.preventDefault(); // Prevent the default form submission
     try {
       const templateParams = {
-        from_name: values.name,
-        from_email: values.email,
-        message: values.message,
+        name: values.nombre,
+        email: values.email,
+        message: values.mensaje,
       };
 
       // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your EmailJS service and template IDs
       const response = await emailjs.send(
-        'service_koskg15',
-        'template_1r979br',
+        'service_8fg2ti6',
+        'template_vsln9ke',
         templateParams,
-        'JUp9U_mkWpXuGI1wq' 
+        '4Rl5BCV4ac9CGHkaP' 
       );
 
       console.log('Email sent:', response);
@@ -65,7 +65,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Col span={24}>
                   <Input
                     type="text"
-                    name="name"
+                    name="nombre"
                     placeholder="Your Name"
                     value={values.name || ''}
                     onChange={handleChange}
@@ -86,7 +86,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                   <TextArea
                     placeholder="Your Message"
                     value={values.message || ''}
-                    name="message"
+                    name="mensaje"
                     onChange={handleChange}
                   />
                   <ValidationType type="message" />
