@@ -6,6 +6,10 @@ This static web page is designed for a lawyer services firm to establish an onli
 https://www.abogadoschyasociados.com 
 
 TODO 
-
 - [ ] Correo form contact
-- [ ] procesos especiales
+- [ ] Seo
+- [ ] google
+- [ ] github
+
+
+
