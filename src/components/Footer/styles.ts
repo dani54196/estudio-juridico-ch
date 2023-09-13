@@ -119,7 +119,7 @@ export const FooterContainer = styled("div")`
     }
   }
 
-  @media screen and (max-width: 470px) {
+  @media screen and (max-width: 300px) {
     width: auto;
 
     a:not(:last-child) {

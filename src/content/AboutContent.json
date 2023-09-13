@@ -1,15 +1,35 @@
 {
-  "title": "Que ofrecemos?",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "¿Qué ofrecemos?",
+  "text": " ",
   "section": [
     {
-      "title": "DERECHO CIVIL",
-      "content": "Mediaciones - Sucesiones - Contratos - Boletos de compraventa - Cesión de derechos - Usucapion - Reivindicación - #escrituración - Accidentes de tránsito - Incumplimiento contractual - #desalojos - Daños y Perjuicios en general",
+      "title": "Derecho Civil",
+      "content": "Contratos - Boletos de compraventa - Cesión de derechos - Usucapion - Sucesiones - Daños y Perjuicios - Incumplimiento contractual",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Derecho de Familia",
+      "content": "Divorcios - Cuidado Personal - Alimentos - Régimen de comunicación - Unión convivencial - Compensación económica - División de bienes - Violencia Familiar",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Derecho Laboral y Previsional",
+      "content": "Trabajo no registrado - Despidos - Accidentes - Enfermedades - Liquidaciones - Licencias - Jubilaciones y Pensiones",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Derecho Penal",
+      "content": "Denuncias, Defensas, Querellas - Violencia de género",
       "icon": "notes.svg"
     },
     {
       "title": "Derecho Comercial",
-      "content": "Juicios y Cobros Ejecutivos - Secuestros prendarios - Secuestros de bienes dados en leasing - Concursos",
+      "content": "Juicios Ejecutivos - Secuestros prendarios - Secuestros de bienes dados en leasing - Concursos - Asesoramiento a Empresas, Pymes y Comercios, formación y modificación de sociedades, Negociación de deudas judiciales y extrajudiciales con entidades bancarias - Concesionarias de vehículos, y Conciliaciones en Defensa del Consumidor",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Procesos Especiales",
+      "content": "Amparos de salud",
       "icon": "notes.svg"
     }
   ]

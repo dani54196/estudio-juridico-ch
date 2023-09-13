@@ -37,11 +37,6 @@ const Home = () => {
         icon="local2.jpeg"
         id="about"
       />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      />
       <ContentBlock
         type="right"
         title={MissionContent.title}
