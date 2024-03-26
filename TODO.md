@@ -12,6 +12,14 @@
 - [x] form contact
   - [x] emailJS
   - [x] work mail service
-  - [ ] mail owner page
-- [x] SEO
-- [ ] stats page
+  - [x] mail owner page
+- [ ] SEO
+- [x] stats page
+- [ ] protect credentials
+- [ ] intagram integration
+  - [x] client create app
+  - [x] generate token
+  - [ ] fetch api intagram graph
+  - [ ] create component
+  - [ ] lazy load to content
+- [ ] better SEO
