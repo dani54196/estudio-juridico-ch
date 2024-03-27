@@ -60,7 +60,7 @@ const Footer = ({ t }: any) => {
             </Col>
             <Col lg={12} md={12} sm={12} xs={12}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3278.8609185421687!2d-58.46597492425411!3d-34.733899972907906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ0JzAyLjAiUyA1OMKwMjcnNDguMiJX!5e0!3m2!1sen!2sar!4v1694531305384!5m2!1sen!2sar"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204.9293044101932!2d-58.4633753611673!3d-34.73369954799665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccf11ed18cf59%3A0x544998d99674b645!2sEstudio%20Jur%C3%ADdico%20CH%20y%20Asociados!5e0!3m2!1sen!2sar!4v1711554558082!5m2!1sen!2sar"
                 width="350"
                 height="300"
                 style={{ border: 0, margin: 1 }}
@@ -69,7 +69,7 @@ const Footer = ({ t }: any) => {
               ></iframe>
             </Col>
           </Row>
-
+          <br />
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>HORARIOS DE ATENCIÓN PRESENCIAL</Language>

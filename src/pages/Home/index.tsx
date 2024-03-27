@@ -12,6 +12,7 @@ const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const IntagramPost = lazy(() => import("../../components/IntagramPost"));
+// const Comments = lazy(() => import("../../components/Comments"));
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const Home = () => {
         icon="local.jpeg"
         id="mission"
       />
+      {/* <Comments /> */}
       <ContentBlock
         type="left"
         title={ProductContent.title}

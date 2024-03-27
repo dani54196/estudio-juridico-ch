@@ -92,7 +92,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                   <ValidationType type="message" />
                 </Col>
                 <ButtonContainer>
-                  <button value="Send" type="submit">{t('Submit')}</button>
+                  <button value="Send" type="submit">Enviar</button>
                 </ButtonContainer>
               </form>
             </FormGroup>
