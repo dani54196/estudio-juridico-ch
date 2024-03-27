@@ -39,8 +39,7 @@ export const Extra = styled("section")`
 `;
 
 export const Sos = styled("div")`
-
-margin-top: 1.2rem;
+  margin-top: 1.2rem;
   a {
     color: #fff;
     font-size: 1rem;
