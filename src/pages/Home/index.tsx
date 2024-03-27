@@ -11,6 +11,7 @@ const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const IntagramPost = lazy(() => import("../../components/IntagramPost"));
 
 const Home = () => {
   return (
@@ -51,6 +52,7 @@ const Home = () => {
         icon="user-sq.jpeg"
         id="product"
       />
+      <IntagramPost />
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
