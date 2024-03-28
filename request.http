@@ -1,0 +1,5 @@
+### Api id
+GET https://maps.googleapis.com/maps/api/place/details/json
+  ?fields=name%2Crating%2Cformatted_phone_number
+  &place_id=ChIJWc8Y7RHPvJURRbZ0ltmYSVQ
+  &key=AIzaSyA_9kcy8m5aIipa5lZ1slZthI6tqDq2KmU

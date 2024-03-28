@@ -35,17 +35,19 @@ const RightBlock = ({
               <h1>{t(title)}</h1>
               <Content>{t(content)}</Content>
               <ButtonWrapper>
-                <a
-                  href="https://api.whatsapp.com/message/INDLYWFEXOD3B1?autoload=1&app_absent=0"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="https://canacintra-leon.org.mx/wp-content/uploads/2022/06/boton-whatsapp.png"
-                    alt="whatsapp contact"
-                    width={250}
-                  />
-                </a>
+                {typeof button === "object" &&
+                  button.map((item: any, id: number) => {
+                    return (
+                      <Button
+                        key={id}
+                        color={item.color}
+                        fixedWidth={true}
+                        onClick={() => scrollTo("about")}
+                      >
+                        {t(item.title)}
+                      </Button>
+                    );
+                  })}
               </ButtonWrapper>
             </ContentWrapper>
           </Col>
